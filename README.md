@@ -51,6 +51,8 @@ streamlit run main_app.py
 
 4. Abra o navegador no link que o Streamlit mostrar (geralmente `http://localhost:8501`).
 
+5. Você também pode acessar o projeto diretamente pelo **Google Colab**: [Clique aqui para abrir no Colab](https://colab.research.google.com/drive/1CawL-Tg5k6swbWcL7VYS_7D5PVSMs2zl?usp=sharing)
+
 ---
 
 ## 🧩 Arquitetura do Fluxo
@@ -95,6 +97,7 @@ Sensores Simulados (Temperatura/Umidade) → Ingestão → Banco SQLite → ML (
 * Implementado em **Streamlit**
 * KPIs exibidos: temperatura média, umidade média, MAE do modelo
 * Gráficos de linha para temperatura e umidade
+* Gráfico do modelo de previsão comparando valores reais e previstos
 * Alertas configuráveis via sidebar (threshold de temperatura)
 * Possibilidade de regenerar dados simulados via botão
 
@@ -117,7 +120,7 @@ Sensores Simulados (Temperatura/Umidade) → Ingestão → Banco SQLite → ML (
 
 ## 📹 Vídeo Explicativo
 
-Link do vídeo demonstrando o fluxo ponta-a-ponta: [INSERIR LINK AQUI]
+Link do vídeo demonstrando o fluxo ponta-a-ponta: [Assista no YouTube](https://youtu.be/qx1fCxv9Xl8)
 
 ---
 
